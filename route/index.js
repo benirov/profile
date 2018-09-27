@@ -6,7 +6,6 @@ const coursesController = require('../controller/courses');
 const skillController = require('../controller/skill');
 
 const api = express.Router();
-
 api.get('/courses', coursesController.getCourses);
 api.post('/courses', coursesController.saveCourses);
 api.post('/courses/:id', coursesController.updateCourses);

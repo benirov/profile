@@ -19,7 +19,7 @@
   },
   "scripts": {
     "server": "nodemon server.js",
-    "start": "webpack-dev-server --port 3000 --inline --content-base .",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
