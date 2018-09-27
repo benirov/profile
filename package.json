@@ -1,6 +1,6 @@
 {
   "name": "profile",
-  "homepage": "https://profilebv.herokuapp.com/public/",
+  "homepage": "https://profilebv.herokuapp.com/src/components/index.jsx",
   "version": "0.1.0",
   "private": true,
   "engines": 
