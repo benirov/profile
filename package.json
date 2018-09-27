@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "react-scripts build"
+    "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
