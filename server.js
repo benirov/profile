@@ -13,7 +13,8 @@ app.use(bodyparser.urlencoded({extends: false}));
 app.use(bodyparser.json());
 app.get('/', (req, res) =>
 	{
-		res.sendFile(path.join(__dirname+'/build/index.html'));
+		const index = path.join(__dirname, 'build', 'index.html');
+  		res.sendFile(index);
 	});
 
 app.use('/api', api);
