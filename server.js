@@ -10,6 +10,11 @@ const api = require('./route');
 
 app.use(bodyparser.urlencoded({extends: false}));
 app.use(bodyparser.json());
+app.get('*', (req, res) =>
+	{
+		res.sendFile(path.join(__dirname+'profile/public/index.html'));
+	});
+
 app.use('/api', api);
 
 
