@@ -7,6 +7,7 @@ const config = require('./config');
 
 const app = express();
 const api = require('./route');
+var path = require("path");
 
 app.use(bodyparser.urlencoded({extends: false}));
 app.use(bodyparser.json());
