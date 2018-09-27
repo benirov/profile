@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "cd profile && yarn --production=false && yarn run build"
+    "heroku-postbuild": "cd https://profilebv.herokuapp.com/ && yarn --production=false && yarn run build"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
