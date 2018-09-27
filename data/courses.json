@@ -1,0 +1,10 @@
+{
+	"courses":
+			[
+				"name":"Api Rest in nodeJS",
+				"description":"Using Node with express to construction of api Rest basic",
+				"img":"/img/node.png",
+				"url":"http://apirestnode.com",
+				"repository":"github.com/benirov/app"
+			]
+}
