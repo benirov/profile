@@ -11,10 +11,10 @@ var path = require("path");
 
 app.use(bodyparser.urlencoded({extends: false}));
 app.use(bodyparser.json());
-app.use(express.static(__dirname + '/public/index.html'));
+app.use(express.static(__dirname + '/build/static'));
 app.get('/', (req, res) =>
 	{
-		res.sendFile('index.html');
+		res.sendFile(path.join(__dirname+'/build/index.html'));
 	});
 
 app.use('/api', api);
