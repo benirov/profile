@@ -11,7 +11,7 @@ var path = require("path");
 
 app.use(bodyparser.urlencoded({extends: false}));
 app.use(bodyparser.json());
-app.use(express.static(__dirname + '/public/'));
+app.use(express.static(__dirname + '/public/index.html'));
 app.get('/', (req, res) =>
 	{
 		res.sendFile('index.html');
