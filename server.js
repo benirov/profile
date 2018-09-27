@@ -12,7 +12,7 @@ var path = require("path");
 app.use(bodyparser.urlencoded({extends: false}));
 app.use(bodyparser.json());
 // app.use(express.static(__dirname + '/dist/profile'));
-app.use(express.static('build'));
+app.use(express.static('public'));
 app.get('/', (req, res) =>
 	{
 		res.sendFile('index.html');
