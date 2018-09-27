@@ -11,9 +11,9 @@ var path = require("path");
 
 app.use(bodyparser.urlencoded({extends: false}));
 app.use(bodyparser.json());
-app.get('*', (req, res) =>
+app.get('/', (req, res) =>
 	{
-		res.sendFile(path.join(__dirname+'/public/index.html'));
+		res.sendFile(path.join(__dirname+'/index.html'));
 	});
 
 app.use('/api', api);
