@@ -1,6 +1,6 @@
 {
   "name": "profile",
-  "homepage": "/public",
+  "homepage": "https://profilebv.herokuapp.com/public/",
   "version": "0.1.0",
   "private": true,
   "engines": 
