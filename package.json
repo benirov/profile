@@ -19,7 +19,8 @@
   },
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "postinstall": "ng build --aot --prod"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"

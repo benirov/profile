@@ -11,10 +11,11 @@ var path = require("path");
 
 app.use(bodyparser.urlencoded({extends: false}));
 app.use(bodyparser.json());
-use(app.static(path.resolve(__dirname, '..', 'public')))
+// app.use(express.static(__dirname + '/dist/profile'));
+app.use(express.static('build'));
 app.get('/', (req, res) =>
 	{
-		res.sendFile(path.join(__dirname+'/public/index.html'));
+		res.sendFile('index.html');
 	});
 
 app.use('/api', api);
