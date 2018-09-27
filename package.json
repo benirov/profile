@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "yarn --production=false && yarn run build"
+    "heroku-postbuild": "npm --production=false && npm run build"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
