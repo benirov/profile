@@ -84,6 +84,12 @@ body
   padding-top: 10px;
 }
 
+.header
+{
+    height : 100vh;
+}
+
+
 .heightmovil
 {
     height : 100vh;

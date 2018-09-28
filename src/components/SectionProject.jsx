@@ -39,10 +39,10 @@ let AddProductToCar;
   
 
 	render(){
-		const { classes } = this.props;  
+		const { classes } = this.props; 
 		return(
 				
-			          <Grid container xs={12} sm={12} className="heightmovil bgcolor2 poini  heightmovil" id="projects">
+			          <Grid container xs={12} sm={12} className="heightmovil bgcolor2 poini" id="projects">
 			          	<Grid container item xs={12} sm={12}  alignItems="center" justify="center">
 				            <Typography variant="title" align="center" className="timesnewroman padding5 whitecolor">
 				              Projects

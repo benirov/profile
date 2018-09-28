@@ -52,7 +52,7 @@ const styles = theme => ({
 	render(){
 		const { classes } = this.props; 
 		return(
-				<AppBar  className="heightmovil  bgcolor4 poini" id="contact"> 
+				<AppBar  className="header  bgcolor4 poini" id="contact"> 
 		          <Toolbar>
 			          <Grid container>
 			          	<Grid container item xs={12} sm={12}  alignItems="center" justify="center">
