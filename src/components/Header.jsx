@@ -11,7 +11,6 @@ import IconButton from '@material-ui/core/IconButton'
 import SvgIcon from '@material-ui/core/SvgIcon';
 import ProfileCard from './ProfileCard'
 import './Header.css';
-import './Util.css';
 
 const styles = theme => ({
   button: {

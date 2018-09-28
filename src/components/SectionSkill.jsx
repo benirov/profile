@@ -11,7 +11,6 @@ import IconButton from '@material-ui/core/IconButton'
 import ProfileCard from './ProfileCard'
 import SkillList from './SkillList';
 import ButtonUp from './ButtonUp';
-import './Util.css';
 
 const styles = theme => ({
   button: {

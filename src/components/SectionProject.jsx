@@ -11,7 +11,6 @@ import IconButton from '@material-ui/core/IconButton';
 import CoursesList from './CoursesList';
 import ButtonUp from './ButtonUp';
 import './Header.css';
-import './Util.css';
 
 const styles = theme => ({
   button: {

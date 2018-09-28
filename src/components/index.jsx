@@ -3,7 +3,6 @@ import Header from './Header';
 import SectionProject from './SectionProject';
 import SectionSkill from './SectionSkill';
 import SectionContact from './SectionContact';
-import './Util.css';
 
 class App extends Component {
 

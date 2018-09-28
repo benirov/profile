@@ -13,7 +13,6 @@ import SvgIcon from '@material-ui/core/SvgIcon';
 import ButtonUp from './ButtonUp';
 
 import './Header.css';
-import './Util.css';
 
 const styles = theme => ({
   button: {
