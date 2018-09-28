@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Icon from '@material-ui/core/Icon';
 import SvgIcon from '@material-ui/core/SvgIcon';
-import NavigationIcon from '@material-ui/icons/Navigation';
+import NavigationIcon from '@material-ui/icons/Navigation'; 
 
 const styles = theme => ({
   button: {

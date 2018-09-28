@@ -39,7 +39,7 @@ let AddProductToCar;
   
 
 	render(){
-		const { classes } = this.props; 
+		const { classes } = this.props;  
 		return(
 				
 			          <Grid container xs={12} sm={12} className="heightmovil bgcolor2 poini  heightmovil" id="projects">

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import SectionProject from './SectionProject';
 import SectionSkill from './SectionSkill';
-import SectionContact from './SectionContact';
+import SectionContact from './SectionContact'; 
 
 class App extends Component {
 

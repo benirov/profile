@@ -40,7 +40,7 @@ const styles = theme => ({
 	render(){
 		const { classes } = this.props;
 		return(
-		          <Grid container className="heightmovil bgcolor3 poini" id="skill">
+		          <Grid container className="heightmovil bgcolor3 poini" id="skill"> 
 		          	<Grid item xs={12} sm={12}  alignItems="center" justify="center">
 			            <Typography variant="title" color="inherit" align="center" className="timesnewroman  padding5 whitecolor padding25"> 
 			              Skill
