@@ -87,7 +87,7 @@ body
   and (max-width: 1300px)
    {
     .heightmovil {
-       height: 200vh!important;
+       height: 200vh;
 }
 }
 @media screen 
@@ -95,21 +95,21 @@ body
   and (device-height: 640px) 
    {
     .heightmovil {
-       height: 270vh!important;
+       height: 270vh;
 }
 }
 @media screen 
   and (max-width: 660px)
    {
     .heightmovil {
-       height: 200vh!important;
+       height: 200vh;
 }
 }
 @media screen 
   and (max-width: 640px)
    {
     .heightmovil {
-       height: 240vh!important;
+       height: 240vh;
 }
 }
 @media screen 
