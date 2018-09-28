@@ -11,79 +11,57 @@ body
 }
 .bgcolor2
 {
-  /* background-color: #216583;
-  color: #216583; */
   background: #12243E!important;
-
 }
 .bgcolor3
 {
-  /* background-color: #65c0ba;
-  color: #65c0ba; */
   background: #161C25!important;
-
 }
 .bgcolor4
 {
   background-color: #0F1319!important;
-
 }
 
 .color1
 {
-
   color: #435671!important;
-
 }
 .color2
 {
-
   color: #12243E!important;
-
-
 }
 .color3
 {
-
   color: #161C25!important;
-
-
 }
 .color4
 {
   color: #0F1319!important;
 }
-
 .whitecolor
 {
   color: #fff!important
 }
-
 .timesnewroman
 {
   font-family: times-new roman!important;
 }
-
 .poini
 {
       position: initial!important;
 }
-
 .padding25
 {
       padding: 25px;
 }
-
 .padding5
 {
       padding: 25px;
 }
-
 .padding4
 {
       padding: 4px;
 }
-
 .borderleft
 {
   border-color: darkgreen;
@@ -93,59 +71,47 @@ body
   border-bottom: none;
   border-top: none;
 }
-
 .padding120
 {
   padding: 120px;
 }
-
 .paddinto100
 {
   padding-top: 100px;
 }
-
 .paddinto10
 {
   padding-top: 10px;
 }
-
 @media screen 
   and (max-width: 1300px)
    {
     .heightmovil {
        height: 200vh!important;
-
 }
 }
-
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
    {
     .heightmovil {
        height: 270vh!important;
-
 }
 }
-
 @media screen 
   and (max-width: 660px)
    {
     .heightmovil {
        height: 200vh!important;
-
 }
 }
-
 @media screen 
   and (max-width: 640px)
    {
     .heightmovil {
        height: 240vh!important;
-
 }
 }
-
 @media screen 
   and (max-width: 630px)
    {
@@ -154,15 +120,11 @@ body
       border: none!important;
   }
 }
-
-
 .App-logo {
   animation: App-logo-spin infinite 5s linear;
   height: 80px;
 }
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-
