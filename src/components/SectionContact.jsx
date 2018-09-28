@@ -12,8 +12,6 @@ import IconButton from '@material-ui/core/IconButton'
 import SvgIcon from '@material-ui/core/SvgIcon';
 import ButtonUp from './ButtonUp';
 
-import './Header.css';
-
 const styles = theme => ({
   button: {
     margin: theme.spacing.unit,
@@ -54,7 +52,7 @@ const styles = theme => ({
 	render(){
 		const { classes } = this.props; 
 		return(
-				<AppBar  className="header bgcolor4 poini" id="contact">
+				<AppBar  className="heightmovil bgcolor4 poini" id="contact">
 		          <Toolbar>
 			          <Grid container>
 			          	<Grid container item xs={12} sm={12}  alignItems="center" justify="center">

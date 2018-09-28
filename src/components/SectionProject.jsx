@@ -10,7 +10,6 @@ import Icon from '@material-ui/core/Icon';
 import IconButton from '@material-ui/core/IconButton';
 import CoursesList from './CoursesList';
 import ButtonUp from './ButtonUp';
-import './Header.css';
 
 const styles = theme => ({
   button: {
@@ -43,7 +42,7 @@ let AddProductToCar;
 		const { classes } = this.props; 
 		return(
 				
-			          <Grid container xs={12} sm={12} className="header bgcolor2 poini  heightmovil" id="projects">
+			          <Grid container xs={12} sm={12} className="heightmovil bgcolor2 poini  heightmovil" id="projects">
 			          	<Grid container item xs={12} sm={12}  alignItems="center" justify="center">
 				            <Typography variant="title" align="center" className="timesnewroman padding5 whitecolor">
 				              Projects

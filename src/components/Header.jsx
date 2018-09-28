@@ -10,7 +10,6 @@ import Icon from '@material-ui/core/Icon'
 import IconButton from '@material-ui/core/IconButton'
 import SvgIcon from '@material-ui/core/SvgIcon';
 import ProfileCard from './ProfileCard'
-import './Header.css';
 
 const styles = theme => ({
   button: {
@@ -52,7 +51,7 @@ const styles = theme => ({
 	render(){
 		const { classes } = this.props;
 		return(
-				<AppBar  className="header bgcolor1 poini" id="home">
+				<AppBar  className="heightmovil bgcolor1 poini" id="home">
 		          <Toolbar>
 			          <Grid container direction="row-reverse">
 			            <Grid container item xs={12} sm={6} alignItems="center" justify="center" className="paddinto100">

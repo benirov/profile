@@ -37,7 +37,6 @@ class SkillList extends Component{
     .then(res => res.json())
     .then((Skill) =>
     {
-      console.log(Skill)
         this.setState({dataSkill: Skill})
     });
     
