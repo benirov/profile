@@ -9,7 +9,7 @@ const api = express.Router();
 api.get('/courses', coursesController.getCourses);
 api.post('/courses', coursesController.saveCourses);
 api.put('/courses/:id', coursesController.updateCourses);
-api.delete('/courses/:id', auth, ProductCtrl.deleteCourse);
+api.delete('/courses/:id', ProductCtrl.deleteCourse);
 
 api.get('/skill', skillController.getSkill);
 api.post('/skill', skillController.saveSkill);
