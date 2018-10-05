@@ -70,7 +70,7 @@ function deleteCourse(req, res)
 {
   let id = req.params.id;
 
-  Product.findById(id, (error, course) =>
+  Courses.findById(id, (error, course) =>
   {
     if(error)
     {
