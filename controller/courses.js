@@ -66,9 +66,40 @@ function updateCourses(req, res)
 
 
 
+function deleteCourse(req, res)
+{
+  let id = req.params.id;
+
+  Product.findById(id, (error, course) =>
+  {
+    if(error)
+    {
+      res.status(500).send({message: `Error al eliminar proyecto: ${error}`});
+    }
+    else
+    {
+      course.remove(err =>
+        {
+          if(err)
+          {
+            res.status(500).send({message: `Error al eliminar proyecto: ${err}`});
+          }
+          else
+          {
+            res.status(200).send({message: `proyecto con id: ${id} eliminado`});
+          }
+        });
+    }
+  });
+
+}
+
+
+
 module.exports = 
 {
 	getCourses,
 	saveCourses,
-	updateCourses
+	updateCourses,
+	deleteCourse
 }
