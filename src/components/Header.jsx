@@ -32,6 +32,10 @@ const styles = theme => ({
     this.viewSection = this.viewSection.bind(this)
   }
 
+  componentWillMount() {
+    document.title = 'About Me | Profile'
+  }
+
   viewSection(e)
   {
   	console.log(e.target.tagName)
@@ -54,20 +58,19 @@ const styles = theme => ({
 				<AppBar  className="header bgcolor1 poini" id="home"> 
 		          <Toolbar>
 			          <Grid container direction="row-reverse">
-			            <Grid container item xs={12} sm={6} alignItems="center" justify="center" className="paddinto100">
+			            <Grid container item xs={12} sm={12} md={6} alignItems="center" justify="center" className="paddinto100">
 			            	<ProfileCard 
 			            	OnClickSection = {this.viewSection}/>
 					       </Grid>
-                 <Grid container item xs={12} sm={6}  alignItems="center" justify="flex-end" className="paddinto10">
+                 <Grid container item xs={12} sm={12} md={6} alignItems="center" justify="flex-end" className="paddinto10">
                   <Grid container item xs={12} sm={12}>
-                      <Grid container item xs={12} sm={6} justify="center" alignItems="center" className="paddinto10">
-                        <Typography variant="title" color="inherit" align="center" className="timesnewroman borderlef noneborderlef">
-                          Developer Web.
+                      
+                      <Grid container item xs={12} sm={12} justify="center" justify-xs-center className="">
+                      <Typography variant="title" color="inherit" align="center" className="titleaboutme borderlef noneborderlef">
+                          About Me
                         </Typography>
-                      </Grid>
-                      <Grid container item xs={12} sm={6} justify="center" alignItems="center" className="paddinto10">
-                        <Typography variant="title" color="inherit" align="left" className="timesnewroman">
-                          Programmer Junior
+                      <Typography variant="Subheading" color="inherit" align="left" className="description borderlef noneborderlef">
+                          Web Developer & Programmer Junior. Passionate about informatics and new technologies. self-taught and coexistence facility in work environments. I have two years of experience as a <b>Junior programmer</b>. I invite you to see the section of projects of this personal pag. You are welcome!
                         </Typography>
                       </Grid>
                       <Grid container item xs={12} sm={12} justify="center" justify-xs-center>   

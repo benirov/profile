@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Slabo+27px');
+
 .bgcolor1
 {
   /* background-color: #f76262;
@@ -46,6 +48,28 @@ body
 {
   font-family: times-new roman!important;
 }
+
+.description{
+  font-family: 'Slabo 27px', serif!important;
+  padding: 15px!important;
+  line-height: 2;
+}
+
+.titleaboutme{
+  font-family: 'Anton', sans-serif!important;
+      font-size: 45px!important;
+}
+
+.Slabo
+{
+  font-family: 'Slabo 27px', serif!important;  
+}
+
+.anton
+{
+   font-family: 'Anton', sans-serif!important;
+}
+
 .poini
 {
       position: initial!important;
@@ -94,6 +118,15 @@ body
 {
     height : 100vh;
 }
+
+.aboutme
+{
+      border-color: #fff;
+      border-radius: 2px;
+      border-width: 1px;
+      border-style: groove;
+}
+
 @media screen 
   and (max-width: 1300px)
    {

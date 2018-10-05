@@ -22,7 +22,6 @@ class App extends Component {
         {
           behavior : 'smooth'
         });
-    // console.log(e.target);
   }
   render() {
     return (

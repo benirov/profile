@@ -47,7 +47,7 @@ class  MediaCard extends Component {
                 variant="headline"
                 component="h2"
                 align="center"
-                className="timesnewroman">
+                className="anton">
                 Beniro Vielma
               </Typography>
               <Typography 
@@ -59,14 +59,14 @@ class  MediaCard extends Component {
             </CardContent>
           </CardActionArea>
           <CardActions className={classes.action}>
-            <Button size="small" color="primary" className="timesnewroman" data-section="projects" onClick={this.props.OnClickSection}>
+            <Button size="small" color="primary" className="Slabo" data-section="projects" onClick={this.props.OnClickSection}>
               Projects
             </Button>
             <Button 
-            size="small" color="primary" className="timesnewroman" data-section="skill" onClick={this.props.OnClickSection}>
+            size="small" color="primary" className="Slabo" data-section="skill" onClick={this.props.OnClickSection}>
               Skill
             </Button>
-            <Button size="small" color="primary" className="timesnewroman" data-section="contact" onClick={this.props.OnClickSection}>
+            <Button size="small" color="primary" className="Slabo" data-section="contact" onClick={this.props.OnClickSection}>
               Contact
             </Button>
           </CardActions>

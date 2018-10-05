@@ -51,7 +51,7 @@ class CoursesList extends Component{
       {
         return(
           <div className={classes.root}>
-          <Grid container item xs={12} sm={12} justify="center">
+          <Grid container item xs={12} sm={12} md={12} justify="center">
             <Paper>
               <Grid container justify="center">
                 <Grid container item xs={12} sm={6} justify="center" className="padding5">
