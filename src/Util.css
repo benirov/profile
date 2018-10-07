@@ -108,6 +108,18 @@ body
   padding-top: 10px;
 }
 
+.headerindex
+{
+    height : 100vh;
+}
+@media screen 
+  and (max-width: 640px)
+   {
+    .headerindex {
+       height: 130vh;
+}
+}
+
 .header
 {
     height : 100vh;
@@ -153,7 +165,7 @@ body
   and (max-width: 640px)
    {
     .heightmovil {
-       height: 240vh;
+       height: 270vh;
 }
 }
 @media screen 

@@ -55,7 +55,7 @@ const styles = theme => ({
 	render(){
 		const { classes } = this.props;
 		return(
-				<AppBar  className="header bgcolor1 poini" id="home"> 
+				<AppBar  className="headerindex bgcolor1 poini" id="home"> 
 		          <Toolbar>
 			          <Grid container direction="row-reverse">
 			            <Grid container item xs={12} sm={12} md={6} alignItems="center" justify="center" className="paddinto100">

@@ -46,7 +46,7 @@ const styles = theme => ({
 			              Skill
 			            </Typography>
 		            </Grid>
-		            <Grid item xs={12} sm={12} ustify="center" spacing={40}>
+		            <Grid item xs={12} sm={12} justify="center" spacing={40}>
 		            	<SkillList />
 				     </Grid>
 				     <Grid container>
